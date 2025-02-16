@@ -78,7 +78,15 @@ body {
 	align-items: center;
 }
 
+.section {
+	padding: 120px 0;
+}
+
 /* header */
+
+.header {
+	border-bottom: 1px solid #e7e9fc;
+}
 
 .header-inner {
 	display: flex;
@@ -169,17 +177,13 @@ body {
 
 /* benefits */
 
-.benefits {
-	padding: 120px 0 116px 0;
-}
-
 .benefits-list {
 	display: flex;
-	column-gap: 24px;
+	column-gap: 20px;
 }
 
 .benefits-item {
-	flex-basis: calc((100% - 72px) / 4);
+	flex-basis: calc((100% - 60px) / 4);
 }
 
 .benefits-item-title {
@@ -194,7 +198,6 @@ body {
 
 .team {
 	background-color: #f4f4fd;
-	padding: 124px 0 116px 0;
 }
 
 .team-section-title {
@@ -230,10 +233,6 @@ body {
 }
 
 /* portfolio */
-
-.portfolio {
-	padding: 124px 0 120px 0;
-}
 
 .portfolio-section-title {
 	margin-bottom: 72px;
